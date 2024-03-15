@@ -124,7 +124,7 @@ void Open()
       digitalWrite(12,HIGH);
       delay(1500);
       digitalWrite(12,LOW);
-      lcd.print("press # to close");
+      lcd.print("PRESS # TO CLOSE");
       door = 0;
     }
     else
